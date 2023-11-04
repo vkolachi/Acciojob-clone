@@ -1,0 +1,316 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    text-transform: capitalize;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    margin: 0 !important;
+  }
+  
+  .text-violet {
+    color: rgba(153, 47, 237, 1);
+  }
+  .bg-primary,
+  .btn-primary {
+    background-color: #2f80ed !important;
+  }
+  section {
+    margin: 50px 0;
+  }
+  .btn-full {
+    width: 100%;
+  }
+  #my-nav-links li {
+    margin-inline: 10px;
+  }
+  #my-nav-links li a {
+    color: #333;
+    font-size: 400;
+  }
+  /* hero */
+  #hero {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background: url(./images/Arrow.svg);
+    background-position: 54% 43%;
+    background-repeat: no-repeat;
+    background-size: 7%;
+  }
+  
+  #hero-salary-package-wrap {
+    width: 88%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding: 10px;
+  }
+  .salary-wrap {
+    width: 400px;
+  }
+  .salary-wrap h5 {
+    font-size: 20px !important;
+  }
+  .salary-wrap p {
+    padding-top: 2px;
+    font-size: 12px !important;
+  }
+  #hero-student-wrap {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background: #fff;
+    /* box-shadow: 0 2px 40px rgba(0, 0, 0, 0.12); */
+    border-radius: 23px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+  }
+  #input-wrap {
+    background-color: #fafafa;
+    gap: 8px;
+    padding: 0 12px;
+    border-radius: 8px;
+    border: 1px solid var(--gray2-color);
+    width: 100%;
+  }
+  #input-wrap img {
+    width: 25px;
+  }
+  #input-wrap input {
+    font: inherit;
+    letter-spacing: inherit;
+    color: currentcolor;
+    border: 0px;
+    box-sizing: content-box;
+    background: none;
+    height: 1.4375em;
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+  
+    animation-duration: 10ms;
+    padding: 16.5px 14px 16.5px 0px;
+  }
+  #form-wrap {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    padding: 28px 18px 16px;
+    border-radius: 18px;
+    width: 400px;
+  }
+  /* cards */
+  #form-card {
+    background: #ecf8ff;
+  }
+  #form-1 table,
+  #form-2 table {
+    width: 100% !important;
+  }
+  #form-1,
+  #form-2 {
+    box-shadow: 0 2px 40px rgba(0, 0, 0, 0.12);
+    width: 415px;
+    border: 2px solid #2f80ed;
+    font-size: 12px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  #form-1 td,
+  #form-2 td {
+    padding-inline: 0.5vw;
+    width: 50px;
+  }
+  #form-1 .btn,
+  #form-2 .btn {
+    width: 100%;
+  }
+  #form-2 {
+    border: none;
+  }
+  .light-blue-wrap {
+    width: fit-content;
+    display: flex;
+    gap: 0.35rem;
+    align-items: center;
+    margin: 1rem 0;
+    background-color: #ceecff;
+    border-radius: 0.25rem;
+    padding: 0.35rem 0.6rem;
+    color: #2f80ed;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+  .light-orange-wrap {
+    width: fit-content;
+    display: flex;
+    gap: 0.35rem;
+    align-items: center;
+    margin: 1rem 0;
+  
+    border-radius: 0.25rem;
+    padding: 0.35rem 0.6rem;
+  
+    color: #f86241;
+    background-color: rgba(248, 99, 65, 0.15);
+  }
+  .blue-wrap {
+    position: absolute;
+    top: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: 130px;
+    background-color: #2f80ed;
+    border-radius: 0.25rem;
+    padding: 0.35rem 0.6rem;
+    color: #fff;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+  }
+  /* Companies */
+  .company-img {
+    height: 60px;
+    width: 200px;
+  }
+  /* grid section */
+  
+  .social {
+    width: 30px !important;
+  }
+  .gs_row_1 > div > img {
+    width: 50px;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  #grid .card {
+    background-color: #fff !important;
+    border-radius: 10px !important;
+    height: max-content;
+    padding: 20px !important;
+  
+    color: #333 !important;
+    width: 440px;
+  }
+  
+  /* CSS for screens smaller than 576px (e.g., mobile phones) */
+  @media (max-width: 575.98px) {
+    /* Your mobile-specific CSS rules here */
+    body {
+      font-size: 14px;
+    }
+    .container {
+      padding: 10px;
+    }
+    #hero {
+      background: none;
+    }
+    #hero-salary-package-wrap {
+      width: auto;
+    }
+    .mobile-view-center {
+      text-align: center;
+    }
+    #form-wrap {
+      width: auto;
+    }
+    #grid {
+      display: flex;
+  
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    #grid .card {
+      background-color: #fff !important;
+      border-radius: 10px !important;
+      height: max-content;
+      padding: 20px !important;
+      color: #333 !important;
+      width: 100%;
+    }
+    #form-1,
+    #form-2 {
+      width: 350px;
+    }
+  }
+  
+  /* CSS for screens between 577px and 991.98px (e.g., tablets) */
+  @media (min-width: 576px) and (max-width: 991.98px) {
+    #grid {
+      display: grid;
+      grid-template-columns: none;
+      gap: 20px;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    #hero {
+      background: none;
+    }
+    #form-wrap {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: space-between;
+      padding: 28px 18px 16px;
+      border-radius: 18px;
+      width: auto;
+    }
+    #grid .card {
+      background-color: #fff !important;
+      border-radius: 10px !important;
+      height: max-content;
+      padding: 20px !important;
+      color: #333 !important;
+      width: auto;
+    }
+  }
+  
+  /* CSS for screens larger than 992px (e.g., desktops) */
+  @media (min-width: 992px) {
+    /* Your desktop-specific CSS rules here */
+    body {
+      font-size: 18px;
+    }
+  }
